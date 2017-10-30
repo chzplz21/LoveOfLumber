@@ -1,0 +1,218 @@
+/*top bar */
+#masthead {
+	padding-top: 0 !important;	
+}
+
+
+/*site title*/
+.site-branding {
+	font-size: 30px !important;
+	width: auto !important;
+	color: blue !important;
+	font-family: 'Permanent Marker', cursive;
+	margin-left: 40px;
+	height: 60px !important;
+	margin-bottom: 10px;	
+	
+}
+
+.site-branding.site-title {
+
+}
+
+.site-branding .rounded {
+	display: none;
+	
+}
+
+.site-branding a {
+	color: black;
+
+	
+	
+	
+}
+
+/*My account area */
+.secondary-navigation {
+	width: 10% !important;
+	float: right !important;
+	display: none;
+}
+
+/*container for navigation */
+.storefront-primary-navigation {
+	
+	margin-bottom: 0 !important;
+			
+}
+
+
+#menu-primary-menu li a {
+	color: #FFDC00 !important;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	padding-bottom: 0;
+	padding-top: 0;	
+}
+
+#menu-primary-menu li a:hover {
+	background-color: black;
+	text-decoration: none;
+}
+
+/*only shop link */
+.menu-item-47 {
+	
+	padding-left: 30px;
+}
+
+/*shopping cart device holder */
+.cart-contents{
+	padding-top: 10px !important;
+	margin-right: 10px !important;
+}
+
+
+.site-header-cart{
+	padding: 0;
+	height: 20px;
+	
+}
+
+.col-full {
+	padding: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	max-width: 100%; 
+	height: auto !important;
+}
+
+/*container for icons */
+/*
+#IconsContainer{
+	right: 0;
+	top: 45%;
+	position: absolute;
+	
+}
+*/
+/*individual social media icon */
+/*
+.Icon {
+	display: inline-block;
+	float: right;
+	
+}
+*/
+
+/*product search */
+.site-search {
+	margin-top: 20px;
+	margin-bottom: 0 !important;
+
+	margin-right: 10px !important;
+}
+
+
+
+
+
+
+
+/*slideshow container */
+.big-pic {
+	height: 400px;
+	width: 100%;
+	background-image: url("lumber2.jpg");
+	background-size: cover;
+		
+}
+
+
+#two {
+	background-image: url("framedHouse.jpg");
+		
+}
+
+#three {
+	background-image: url("lumber5.jpg")
+}
+
+#four{
+	background-image: url("lumber4.jpg")
+}
+
+/*contains entire main section */
+.storefront-product-section {
+	margin-top: 5%;
+}
+
+#box {
+	height: 400px;
+	width: 100%;
+	background-color: #FFDC00;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+/*makes it so everything can go as wide as possible */
+	.col-full {
+		margin: 0 !important;
+	}
+	
+
+	/*container for navigation */
+	.storefront-primary-navigation {
+		border: solid yellow;
+		height: auto;
+				
+	}
+
+
+
+	/*site title*/
+	.site-branding {
+		font-size: 25px !important;
+		margin-left: 0;
+		
+	}
+	
+	
+	.site-header {
+		padding-bottom: 0 !important;
+	}
+	
+}
+
+
+@media only screen and (max-width: 650px) {
+	
+	/*site title*/
+	.site-branding {
+		font-size: 17px !important;
+		
+		
+		
+	}
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	/*site title*/
+	.site-branding {
+		font-size: 18px !important;
+		width: 50% !important;
+		border: solid black;
+		
+	}
+	
+	
+	
+}
+
