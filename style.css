@@ -1,0 +1,687 @@
+/*top bar */
+#masthead {
+	padding-top: 0 !important;	
+}
+
+
+/*site title*/
+.site-branding {
+	font-size: 30px !important;
+	width: auto !important;
+	font-family: 'Permanent Marker', cursive;
+	margin-left: 40px;
+	height: 60px !important;
+	margin-bottom: 10px;
+	
+	text-shadow: -1px 0 #FFDC00, 0 1px #FFDC00, 1px 0 #FFDC00, 0 -1px #FFDC00;	
+}
+
+
+.site-branding .rounded {
+	display: none;
+	
+}
+
+/*actual site title */
+.site-branding a {
+	color: black;
+	text-shadow: 1px yellow;
+	
+}
+
+
+/*actual site title on hover */
+.site-branding a:hover {
+	color: grey;
+	text-shadow: 1px yellow;
+	text-decoration: none;
+	
+}
+
+
+
+/*My account area */
+.secondary-navigation {
+	width: 10% !important;
+	float: right !important;
+	display: none;
+}
+
+/*container for navigation */
+.storefront-primary-navigation {
+	padding-top: 5px;
+	margin-bottom: 0 !important;
+			
+}
+
+
+#menu-primary-menu li a {
+	color: black !important;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	padding-bottom: 0;
+	padding-top: 0;
+	text-shadow: 0.5px yellow !important;
+}
+
+#menu-primary-menu li a:hover {
+	background-color:#FFDC00;
+	text-decoration: none;
+}
+
+/*only shop link */
+.menu-item-47 {
+	
+	padding-left: 30px;
+}
+
+/*shopping cart device holder */
+.cart-contents{
+	padding-top: 10px !important;
+	margin-right: 10px !important;
+}
+
+
+.site-header-cart{
+	padding: 0;
+	height: 20px;
+	
+}
+
+.col-full {
+	padding: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	max-width: 100%; 
+	height: auto !important;
+}
+
+/*container for 'your south florida lumber source' */
+#LumberSource {
+	height: auto;
+	width: auto;
+	font-size: 23px;
+
+	color: #FFDC00;
+	left: 43%;
+	top: 35px;
+	font-family: 'Bree Serif', serif;
+	position: absolute;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;	
+}
+
+
+
+
+/*container for icons */
+#IconsContainer{
+	height: auto;
+	width: 40px;
+	
+	margin-top: 150px;
+	float: right;
+	
+}
+
+/*individual social media icon */
+
+.Icon {
+	
+	
+}
+
+#right-sidebar {
+	
+}
+
+
+/*product search */
+.site-search {
+	margin-top: 20px;
+	margin-bottom: 0 !important;
+
+	margin-right: 10px !important;
+}
+
+
+/*slideshow container */
+.big-pic {
+	height: 400px;
+	width: 100%;
+	background-image: url("lumber2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	
+}
+
+
+
+
+
+
+#two {
+	background-image: url("framedHouse.jpg");
+	display: none;
+		
+}
+
+#three {
+	background-image: url("lumber5.jpg");
+	display: none;
+}
+
+#four{
+	background-image: url("lumber4.jpg");
+	display: none;
+}
+
+/*contains entire main section */
+.storefront-product-section {
+	margin-top: 5%;
+}
+
+/*box inside big pic */
+.boxInPic {
+	height: auto;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 140px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	line-height: 90%;
+	animation: fadein 2s;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;	
+	
+}
+
+
+@keyframes fadein {
+     0% {
+    opacity: 0;
+  }
+  100% {
+    
+    opacity: 1;
+	visibility: visible;
+  }
+}
+
+.products img {
+	border: solid  transparent;
+}
+
+
+.products img:hover {
+	border-color:  #FFDC00;
+	border-width: 5px;
+}
+
+
+/*yellow box at bottom */
+#box {
+	height: 400px;
+	width: 100%;
+	background-color: #FFDC00;
+	
+}
+
+/*left container in lower yellow box */
+#leftSide {
+	float: left;
+
+	height: 100%;
+	width: 55%;
+	text-align: center;
+	font-family: 'Bree Serif', serif;	
+}
+
+
+#slogan {
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 130px;
+	
+	display: inline-block;
+}
+
+
+#belowSlogan {
+	font-size: 20px;
+}
+
+
+/*container for lumberyard image */
+#ImageContainer {
+  height: 100%;
+  float: right;
+  width: 40%;
+ 
+  margin-right: 5%;
+  background-image: url("lumberYard.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #FFDC00;
+}
+
+/*small navigation links on handheld */
+.handheld-navigation .menu-item a{
+	border-bottom: solid black;
+	color: black;
+
+	font-size: 17px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	
+}
+/*small navigation links on handheld*/
+.handheld-navigation .menu-item a:hover{
+	 background-color: #FFDC00;
+	
+}
+
+.search-field {
+	font-family: 'Bree Serif', serif;
+}
+
+
+
+
+/*product categories main page */
+
+.woocommerce-loop-category__title {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 25px !important;
+	
+}
+
+
+
+.woocommerce-breadcrumb {
+	display: none;
+}
+
+/*100% background image */
+.woocommerce-products-header {
+	padding-top: 0;
+	height: 300px;
+	
+		
+}
+
+/*boards page 100% image at top */
+.term-boards .woocommerce-products-header {
+	
+	background-image: url("deckBoards2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*Framing page 100% image at top */
+.term-framing .woocommerce-products-header {
+	
+	
+	background-image: url("Framing4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+/*Plywood page 100% image at top */
+.term-plywood .woocommerce-products-header {
+	
+
+	background-image: url("PlywoodBig.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+/* font on top of image */
+.woocommerce-products-header__title {
+	color: #FFDC00;
+	font-size: 50px;
+	padding-top: 100px;
+	margin-bottom: 0;
+	font-family: 'Bree Serif', serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;	
+	
+
+}
+
+/*text below main text */
+ .term-description {
+		color: white;
+		font-family: 'Bree Serif', serif;
+		font-size: 20px;
+		background: rgba(0, 0, 0, 0.7);
+		display: inline-block !important;
+		margin-bottom: 0 !important;
+}
+
+.term-description p{
+	margin-bottom: 0 !important;
+}
+
+
+
+/*product picture */
+ .woocommerce-LoopProduct-link img {
+	border: 2px solid grey;
+	height: 300px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+/*product description */
+.woocommerce-loop-product__title {
+	font-size: 20px !important;
+    color: black;
+	font-family: 'Bree Serif', serif;
+}
+
+.add_to_cart_button {
+	background-color: #FFDC00;
+}
+
+
+/*shop page */
+
+/*image container */
+.woocommerce-products-header {
+	background-image: url("Images/lumberShop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.woocommerce-products-header__title { 
+	color: white;
+}
+
+
+
+@media only screen and (max-width: 1220px) {
+	
+/*container for 'your south florida lumber source' */
+#LumberSource {
+	
+	font-size: 18px;
+	width: 200px;
+	left: 53%;
+	top: 35px;
+	font-family: 'Bree Serif', serif;
+	position: absolute;
+		
+}
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+/*container for 'your south florida lumber source' */
+#LumberSource {
+
+display:none;
+		
+}
+	
+		
+}
+
+
+
+@media only screen and (max-width: 900px) {
+	
+	/*yellow box at bottom */
+	#box {
+		height: auto;
+		width: 100%;
+		background-color: #FFDC00;
+		
+	}
+
+	
+	
+	/*left container in lower yellow box */
+	#leftSide {
+		float: none;
+		margin: 0 auto;
+		height: auto;
+		width: 90%;
+	
+	}
+	
+	#slogan {
+	font-size: 35px;
+	margin: 0 auto;
+	margin-top: 0;
+	
+	display: inline-block;
+	}
+	
+	#belowSlogan {
+	font-size: 15px;
+	}
+	
+	/*container for lumberyard image */
+	#ImageContainer {
+	  height: 250px;
+	  float: none;
+	  width: 500px;
+	
+	  margin: 0 auto;
+	  background-image: url("lumberYardSmall.jpg");
+		
+	}
+	
+
+}
+
+
+
+@media only screen and (max-width: 750px) {
+/*makes it so everything can go as wide as possible */
+	.col-full {
+		margin: 0 !important;
+	}
+	
+
+	/*container for navigation */
+	.storefront-primary-navigation {
+	
+		height: auto;
+				
+	}
+
+
+
+	/*site title*/
+	.site-branding {
+		font-size: 25px !important;
+		margin-left: 0;
+		
+	}
+	
+	
+	.site-header {
+		padding-bottom: 0 !important;
+	}
+	
+	
+/*slideshow container */
+.big-pic {
+	height: 200px;
+	width: 100%;
+	background-image: url("lumber2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	
+}
+
+
+/*container for icons */
+#IconsContainer{
+	height: auto;
+	width: 30px;
+	
+	margin-top: 50px;
+	float: right;
+	
+}
+
+	
+		
+/*box inside big pic */
+	.boxInPic {
+		height: auto;
+		width: 40%;
+		margin: 0 auto;
+		margin-top: 50px;
+		font-size: 40px;
+		color: white;
+		text-align: center;
+		font-family: 'Bree Serif', serif;
+		line-height: 90%;
+		animation: fadein 2s;
+	
+			
+	}
+	
+	
+/*products page */
+
+
+/*100% background image */
+.woocommerce-products-header {
+	text-align: center;
+	height: 200px;
+	
+	
+		
+}
+
+
+/* font on top of image */
+.woocommerce-products-header__title {
+	font-size: 35px;
+	padding-top: 60px;
+	
+	
+}
+
+
+/*text below main text */
+ .term-description {
+		
+		font-size: 15px;
+	
+}
+
+
+
+
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 650px) {
+	
+	/*site title*/
+	.site-branding {
+		font-size: 17px !important;
+			
+	}
+	
+	.site-branding a {
+	color: black;
+	line-height: 80%;
+}
+	
+	
+		
+	/*box inside big pic */
+	.boxInPic {
+		height: auto;
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 60px;
+		font-size: 30px;
+		color: white;
+		text-align: center;
+		font-family: 'Bree Serif', serif;
+		line-height: 90%;
+		animation: fadein 2s;
+			
+	}
+	
+	.site-header-cart {
+		display: none;
+	}
+	
+	
+		
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	/*site title*/
+	.site-branding {
+		font-size: 18px !important;
+		width: 50% !important;
+
+		
+		
+	}
+	
+	.site-branding a {
+
+		line-height: 80% !important;
+		display: block !important;
+	}
+	
+	
+	/*container for lumberyard image */
+	#ImageContainer {
+	  height: 225px;
+	  float: none;
+	  width: 90%;
+	
+	  margin: 0 auto;
+	  background-image: url("lumberYardSmall.jpg");
+		
+	}
+	
+	
+}	
+	
+

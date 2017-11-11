@@ -1,0 +1,47 @@
+/*Css for the Add to Cart page and Cart Page */
+
+
+.product_title {
+	font-family: 'Bree Serif', serif;
+}
+
+.woocommerce-product-details__short-description {
+	font-family: 'Bree Serif', serif;
+	
+}
+
+.single_add_to_cart_button .button {
+	background-color: #FFDC00 !important;
+}
+
+
+.stars a{
+	color: #FFDC00 !important;
+}
+
+.woocommerce-noreviews {
+	background-color: black !important;
+}
+
+.woocommerce .woocommerce-message {
+	background-color: #FFDC00;
+	font-size: 15px;
+	margin-top: 0 !important;
+}
+
+/*little link that says "view cart" */
+.woocommerce .woocommerce-message a{
+	background-color: black;
+	font-size: 15px;
+}
+
+
+.entry-header {
+	padding-bottom: 0 !important;
+	background-color: #FFDC00 !important;
+}
+/*h1 at the top of page ex. "cart" */
+.entry-title {
+	font-family: 'Bree Serif', serif;
+	
+}
